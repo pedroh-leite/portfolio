@@ -203,7 +203,7 @@ div.apresentacao{
 }
 
 .section-exp{
-    margin-bottom: 280px;
+    margin-bottom: 240px;
 }
 
 .div-exp{
@@ -289,7 +289,162 @@ div.apresentacao{
     margin-top: 50px;
 }
 
+.projetos{
+    margin: auto;
+    /* text-align: center; */
+    border-top: 3px solid var(--azul-medio)
+}
+
+.text-projetos{
+    margin-left: 150px;
+    margin-top: 120px;
+    font-size: 2.5rem;
+    margin-bottom: -30px;
+    text-shadow: 1px 2px 1px var(--azul-claro);
+}
+
+.p1{
+    width: 300px;
+    height: 350px;
+    margin-top: 60px;
+    margin-left: 150px;
+    background-color: var(--cinza-escuro);
+    border: 3px solid var(--branco);
+    border-radius: 30px;
+}
+
+.p2{
+    width: 300px;
+    height: 350px;
+    margin-top: -355px;
+    margin-left: 500px;
+    background-color: var(--cinza-escuro);
+    border: 3px solid var(--branco);
+    border-radius: 30px;
+}
+
+.p3{
+    width: 300px;
+    height: 350px;
+    margin-top: -355px;
+    margin-left: 850px;
+    background-color: var(--cinza-escuro);
+    border: 3px solid var(--branco);
+    border-radius: 30px;
+}
+
+.p4{
+    display: none;
+    width: 300px;
+    height: 350px;
+    margin-top: 30px;
+    margin-left: 150px;
+    background-color: var(--cinza-escuro);
+    border: 3px solid var(--branco);
+    border-radius: 30px;
+}
+
+.p5{
+    display: none;
+    width: 300px;
+    height: 350px;
+    margin-top: -350px;
+    margin-left: 500px;
+    background-color: var(--cinza-escuro);
+    border: 3px solid var(--branco);
+    border-radius: 30px;
+}
+
+.p6{
+    display: none;
+    width: 300px;
+    height: 350px;
+    margin-top: -355px;
+    margin-left: 850px;
+    background-color: var(--cinza-escuro);
+    border: 3px solid var(--branco);
+    border-radius: 30px;
+}
 
 
+.img-brv1 {
+    display: block;
+    margin-top: 100px;
+    max-width: 290px;
+    width: auto;
+}
 
+.img-brv2 {
+    display: block;
+    margin-top: 100px;
+    max-width: 290px;
+    width: auto;
+}
 
+.img-brv3 {
+    display: block;
+    margin-top: 100px;
+    max-width: 290px;
+    width: auto;
+}
+
+.img-brv4 {
+    display: block;
+    margin-top: 100px;
+    max-width: 290px;
+    width: auto;
+}
+
+.img-brv5 {
+    display: block;
+    margin-top: 100px;
+    max-width: 290px;
+    width: auto;
+}
+
+.img-brv6 {
+    display: block;
+    margin-top: 100px;
+    max-width: 290px;
+    width: auto;
+}
+
+.mais-projetos{
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.projetos-novos{
+    text-decoration: none;
+    color:var(--branco);
+}
+
+.projetos-novos:hover{
+    text-decoration: underline;
+    color:var(--branco);
+}
+
+.footer{
+    display: block;
+    background-color: var(--cinza-escuro);
+    padding: 10px;
+    text-shadow: 1px 1px black;
+}
+
+.text-footer{
+    text-align: center;
+}
+
+.nome-pedro{
+    text-decoration: none;
+    color: var(--branco);
+}
+
+.nome-pedro:hover{
+    color: var(--azul-claro);
+    font-size: 1.05rem;
+    text-shadow: 1px 1px var(--violeta);
+}
