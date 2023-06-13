@@ -123,7 +123,7 @@ div.apresentacao{
     margin-top: 6rem;
 }
 
-/*
+
 .div-sobre{
     margin: auto;
     color: var(--branco);
@@ -159,13 +159,13 @@ div.apresentacao{
     display: block;
     background-color: var(--cinza-escuro);
     text-align: justify;
-    width: 700px;
+    width:  55% /*700px*/;
     height: 150px;
     padding-right: 70px;
     padding-left: 40px;
     padding-top: 40px;
     padding-bottom: 20px;
-    margin-left: 400px;
+    margin-left: 420px;
     margin-top: -310px;
     border-radius: 20px;
     opacity: 85%;
@@ -193,6 +193,7 @@ div.apresentacao{
     text-decoration: none;
 }
 
+/*
 .section-exp{
     margin-bottom: 240px;
 }
