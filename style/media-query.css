@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+/* Pontos de interrupção típicos de dispositivos
+Telas pequenas - Até 600px
+Celular - 600px até 768px
+Tablet - 768px até 992px
+Desktop - 992px até 1200px
+Grandes telas - Acima de 1200px
+*/
+
+:root{
+    --branco: #ffffff;
+    --preto: #000000;
+    --cinza-escuro: #333333;
+    --azul-claro: #0789E8;
+    --azul-medio: #0751F2;
+    --azul-escuro: #121BDB;
+    --violeta: #3B07F2;
+    --roxo: #7607E8;
+
+    --fonte-titulo: 'Secular One', sans-serif;
+    --fonte-nome: 'Archivo Black', sans-serif;
+    --fonte-padrao: 'Geologica', sans-serif;
+}
+
+
+@media screen and (max-width: 768px) /*Celular*/{
+
+    header{
+        font-size: 1rem;
+        text-shadow: 1px 1px 1px var(--preto);
+    }
+
+    .painel{
+        background-color: var(--cinza-escuro);
+        width: 100%;
+        padding: 2.5rem;
+        padding-right: 200px;
+        border-bottom: 2px solid var(--azul-medio);
+    }
+
+    nav a{
+        padding: 15px;
+        background-color: var(--cinza-escuro);
+        color: var(--branco);
+        text-decoration: none;
+        margin-left: 0px;
+        margin-right: 0px;
+        border-radius: 4px;
+    }
+
+    div.apresentacao{
+        display: block;
+        text-align: center;
+        margin-left: 31%;
+        margin-top: 50%;
+    }
+
+    .ola {
+        font: var(--fonte-padrao);
+        font-size: 2rem;
+    }
+
+    .escrever {
+        font: var(--fonte-nome);
+        font-size: 3.1rem;
+        color: var(--azul-escuro);
+        font-weight: bold;
+    }
+
+    .front {
+        font: var(--fonte-padrao);
+        font-size: 2rem;
+    }
+
+    .btn-linkedin{
+        display: inline-block;
+        padding: 15px 25px;
+        margin-top: 3rem;
+        margin-left: 35%;
+        margin-bottom: 50%;
+        border: 2px solid var(--azul-medio);
+        border-radius: 5px;
+        background-color: var(--preto);
+        color: var(--branco);
+        text-decoration: none;
+        font-size: 1.1rem;
+    }
+
+    .container img {
+        display: none;
+    }
+
+}
