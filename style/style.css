@@ -32,6 +32,8 @@ body{
     background-color: var(--preto);
 }
 
+/* SESSÃO HOME */
+
 header{
     width: 100%;
     font-size: 1rem;
@@ -119,6 +121,8 @@ div.apresentacao{
     margin-top: -25%;
 }
 
+/* SESSÃO SOBRE */
+
 .section-sobre{
     margin-top: 6rem;
 }
@@ -193,7 +197,9 @@ div.apresentacao{
     text-decoration: none;
 }
 
-/*
+/* SESSÃO EXPERIÊNCIA */
+
+
 .section-exp{
     margin-bottom: 240px;
 }
@@ -234,12 +240,6 @@ div.apresentacao{
     color: var(--branco);  
 }
 
-.cargo-celcoin{
-    margin-left: 350px;
-    margin-top: -80px;
-    margin-bottom: 80px;
-}
-
 .dados-celcoin{
     display: block;
     margin-left: 355px;
@@ -252,6 +252,9 @@ div.apresentacao{
 .cargo-celcoin{
     font-weight:bold ;
     color: var(--azul-claro);
+    margin-left: 350px;
+    margin-top: -80px;
+    margin-bottom: 80px;
 }
 
 .nome-celcoin{
@@ -281,6 +284,7 @@ div.apresentacao{
     margin-top: 50px;
 }
 
+/*
 .projetos{
     margin: auto;
     border-top: 3px solid var(--azul-medio)

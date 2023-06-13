@@ -26,7 +26,7 @@ Grandes telas - Acima de 1200px
 
 @media screen and (max-width: 768px) /*Celular*/{
 
-    /* ABA HOME DO SITE */
+    /* SESSÃO HOME */
 
     div.apresentacao{
         display: inline-block;
@@ -71,7 +71,7 @@ Grandes telas - Acima de 1200px
         display: none;
     }
 
-    /* ABA SOBRE MIM DO SITE */
+    /* SESSÃO SOBRE */
 
     .div-sobre{
         margin: auto;
@@ -92,7 +92,7 @@ Grandes telas - Acima de 1200px
     
     .pedro{
         display: inline-block;
-        margin-left: 55px ;
+        margin-left: 11% ;
         margin-top: 70px;
         border-left: 7px solid var(--azul-claro);
         border-radius: 5px;
@@ -115,7 +115,7 @@ Grandes telas - Acima de 1200px
         padding-right: 40px;
         padding-left: 40px;
         padding-top: 40px;
-        margin-left: 11%;
+        margin-left: 10%;
         margin-top: 12%;
         border-radius: 20px;
         opacity: 85%;
@@ -139,11 +139,102 @@ Grandes telas - Acima de 1200px
         margin-left: 12%;
         margin-top: -290px;
         border: 2px solid var(--azul-escuro);
-        border-radius: 8px;
+        border-radius: 10px;
         background-color: var(--preto);
         color: var(--branco);
         text-decoration: none;
         text-align: center;
     }
 
+    /* SESSÃO EXPERIÊNCIA */
+
+    .section-exp{
+        margin-bottom: 240px;
+    }
+    
+    .div-exp{
+        margin-top: 50px;
+        margin-bottom: 90px;
+        border-top: 3px solid var(--azul-medio);
+    }
+    
+    .exp{
+        margin-left: 20px;
+        margin-top: 50px;
+        /* margin-bottom: -30px; */
+        text-align: center;
+        font-size: 2.5rem;
+        text-shadow: 1px 2px 1px var(--azul-claro);
+    }
+
+    .btn-celcoin{
+        margin-left: 130px;
+        padding: 10px;
+        padding-right: 53px;
+        border: 2px solid var(--azul-claro);
+        text-decoration: none;
+        color: var(--branco);
+    }
+    
+    .nexp{
+        margin-left: 130px;
+        margin-top:22px;
+    }
+    
+    .btn-nexp{
+        margin-top: 800px;
+        padding: 10px;
+        border: 2px solid var(--azul-claro);
+        text-decoration: none;
+        color: var(--branco);  
+    }
+
+    .cargo-celcoin{
+        display: block;
+        font-weight: bold;
+        color: var(--azul-claro);
+        margin-left: 0px;
+        margin-top: 80px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+
+    .dados-celcoin{
+        display: block;
+        margin-left: 55px;
+        margin-top: 20px;
+        margin-bottom: 90px;
+        width: 300px;
+        text-align: justify;
+    }
+
+    .nome-celcoin{
+        margin-top: 10px;
+    }
+    
+    .data-celcoin{
+        margin-top: 10px;
+        color: var(--roxo);
+        font-weight: bold;
+    }
+    
+    .text-celcoin{
+        margin-top: 10px;
+    }
+
+    .nova-exp{
+        display: none;
+        margin-left: 55px;
+        margin-top: 20px;
+        margin-bottom: 90px;
+        width: 300px;
+        text-align: center;
+        color: var(--azul-claro);
+    }
+    
+    .novo-job{
+        margin-top: 40px;
+        text-align: justify;
+        color: var(--branco);
+    }
 }
