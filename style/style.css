@@ -284,7 +284,9 @@ div.apresentacao{
     margin-top: 50px;
 }
 
-/*
+
+/* SESSÃO PROJETOS */
+
 .projetos{
     margin: auto;
     border-top: 3px solid var(--azul-medio)
@@ -422,6 +424,8 @@ div.apresentacao{
     color:var(--branco);
 }
 
+/* FOOTER DO SITE */
+
 .footer{
     display: block;
     background-color: var(--cinza-escuro);
@@ -443,4 +447,5 @@ div.apresentacao{
     font-size: 1.05rem;
     text-shadow: 1px 1px var(--violeta);
 }
+/*
 */

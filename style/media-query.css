@@ -237,4 +237,147 @@ Grandes telas - Acima de 1200px
         text-align: justify;
         color: var(--branco);
     }
+
+    /* SESSÃO PROJETOS */
+
+    .projetos{
+        border-top: 3px solid var(--azul-medio)
+    }
+    
+    .text-projetos{
+        text-align: center;
+        margin-left: 20px;
+        margin-top: 50px;
+        font-size: 2.5rem;
+        margin-bottom: -30px;
+        text-shadow: 1px 2px 1px var(--azul-claro);
+    }
+
+    .p1{
+        width: 300px;
+        height: 350px;
+        margin-top: 80px;
+        margin-left: 60px;
+        background-color: var(--cinza-escuro);
+        border: 3px solid var(--branco);
+        border-radius: 30px;
+    }
+    
+    .p2{
+        width: 300px;
+        height: 350px;
+        margin-top: 50px;
+        margin-left: 60px;
+        background-color: var(--cinza-escuro);
+        border: 3px solid var(--branco);
+        border-radius: 30px;
+    }
+    
+    .p3{
+        width: 300px;
+        height: 350px;
+        margin-top: 50px;
+        margin-left: 60px;
+        background-color: var(--cinza-escuro);
+        border: 3px solid var(--branco);
+        border-radius: 30px;
+    }
+
+    .p4{
+        display: none;
+        width: 300px;
+        height: 350px;
+        margin-top: 50px;
+        margin-left: 60px;
+        background-color: var(--cinza-escuro);
+        border: 3px solid var(--branco);
+        border-radius: 30px;
+    }
+    
+    .p5{
+        display: none;
+        width: 300px;
+        height: 350px;
+        margin-top: 50px;
+        margin-left: 60px;
+        background-color: var(--cinza-escuro);
+        border: 3px solid var(--branco);
+        border-radius: 30px;
+    }
+    
+    .p6{
+        display: none;
+        width: 300px;
+        height: 350px;
+        margin-top: 50px;
+        margin-left: 60px;
+        background-color: var(--cinza-escuro);
+        border: 3px solid var(--branco);
+        border-radius: 30px;
+    }
+
+    .img-brv1 {
+        display: block;
+        margin-top: 100px;
+        max-width: 290px;
+        width: auto;
+    }
+    
+    .img-brv2 {
+        display: block;
+        margin-top: 100px;
+        max-width: 290px;
+        width: auto;
+    }
+    
+    .img-brv3 {
+        display: block;
+        margin-top: 100px;
+        max-width: 290px;
+        width: auto;
+    }
+    
+    .img-brv4 {
+        display: block;
+        margin-top: 100px;
+        max-width: 290px;
+        width: auto;
+    }
+    
+    .img-brv5 {
+        display: block;
+        margin-top: 100px;
+        max-width: 290px;
+        width: auto;
+    }
+    
+    .img-brv6 {
+        display: block;
+        margin-top: 100px;
+        max-width: 290px;
+        width: auto;
+    }
+
+    .mais-projetos{
+        display: block;
+        margin: auto;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+    
+    .projetos-novos{
+        font-size: 1.2rem;
+        text-decoration: none;
+        color:var(--branco);
+    }
+    
+    .projetos-novos:hover{
+        font-size: 1.2rem;
+        text-decoration: underline;
+        color:var(--branco);
+    }
+
+    
+
 }
