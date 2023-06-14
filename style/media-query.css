@@ -378,6 +378,121 @@ Grandes telas - Acima de 1200px
         color:var(--branco);
     }
 
+}
 
+@media screen and (min-width: 768px) and (max-width: 992px) /* DESKTOP*/ {
+   
+    /* HEADER */
 
+    header{
+        width: 100%;
+        font-size: 1rem;
+        text-shadow: 1px 1px 1px var(--preto);
+        border-bottom: 2px solid var(--azul-escuro);
+    }
+
+    /* SESSÃO HOME */
+
+    .container img {
+        display: block;
+        max-width: 577px;
+        max-height: 350px;
+        margin-left: 53%;
+        margin-top: -25%;
+    }
+    
+
+    /* SESSÃO SOBRE */
+
+    .texto-sobre{
+        display: block;
+        background-color: var(--cinza-escuro);
+        text-align: justify;
+        width:  40% /*700px*/;
+        height: 220px;
+        padding-right: 70px;
+        padding-left: 40px;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        margin-left: 420px;
+        margin-top: -310px;
+        border-radius: 20px;
+        opacity: 85%;
+    }
+
+    /* SESSÃO EXPERIÊNCIAS */
+
+    .dados-celcoin{
+        display: block;
+        margin-left: 355px;
+        margin-top: -80px;
+        margin-bottom: 90px;
+        width: 50%;
+        text-align: justify;
+    }
+
+    /* SESSÃO PROJETOS */
+
+    .p1{
+        width: 300px;
+        height: 350px;
+        margin-top: 60px;
+        margin-left: 30px;
+        background-color: var(--cinza-escuro);
+        border: 3px solid var(--branco);
+        border-radius: 30px;
+    }
+    
+    .p2{
+        width: 300px;
+        height: 350px;
+        margin-top: -355px;
+        margin-left: 340px;
+        background-color: var(--cinza-escuro);
+        border: 3px solid var(--branco);
+        border-radius: 30px;
+    }
+    
+    .p3{
+        width: 300px;
+        height: 350px;
+        margin-top: -355px;
+        margin-left: 650PX;
+        background-color: var(--cinza-escuro);
+        border: 3px solid var(--branco);
+        border-radius: 30px;
+    }
+
+    .p4{
+        display: none;
+        width: 300px;
+        height: 350px;
+        margin-top: 30px;
+        margin-left: 30px;
+        background-color: var(--cinza-escuro);
+        border: 3px solid var(--branco);
+        border-radius: 30px;
+    }
+    
+    .p5{
+        display: none;
+        width: 300px;
+        height: 350px;
+        margin-top: -350px;
+        margin-left: 340px;
+        background-color: var(--cinza-escuro);
+        border: 3px solid var(--branco);
+        border-radius: 30px;
+    }
+    
+    .p6{
+        display: none;
+        width: 300px;
+        height: 350px;
+        margin-top: -355px;
+        margin-left: 650px;
+        background-color: var(--cinza-escuro);
+        border: 3px solid var(--branco);
+        border-radius: 30px;
+    }
 }
