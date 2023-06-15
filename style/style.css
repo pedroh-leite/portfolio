@@ -26,15 +26,21 @@
     padding: 0px;
 }
 
+/* html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px;
+} */
+
 body{
     font-family: var(--fonte-padrao);
     color: var(--branco);
     background-color: var(--preto);
 }
 
-/* SESSÃO HOME */
+/* HEADER */
 
 header{
+    position: fixed;
     width: 100%;
     font-size: 1rem;
     text-shadow: 1px 1px 1px var(--preto);
@@ -63,9 +69,11 @@ nav a:hover{
     margin-right: 0px;
 }
 
+/* SESSÃO HOME */
+
 div.apresentacao{
     display: inline-block;
-    margin-top: 8%;
+    margin-top: 14%;
     margin-left: 8%;
 }
 
