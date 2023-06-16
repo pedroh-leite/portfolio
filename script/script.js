@@ -2,7 +2,13 @@
 
 const escrever = document.querySelector(".escrever");
 const menuLinks = document.querySelectorAll(".painel a");
+const botaoNexp = document.querySelector(".btn-nexp")
+const botaoCelcoin = document.querySelector(".btn-celcoin")
+const nexp = document.querySelector(".nova-exp");
+const celcoin = document.querySelector(".data-exp");
 
+
+////////////////////////////////////////////////////////
 // EFEITO MÁQUINA DE ESCREVER 
 
 const typewrite = function(el) {
@@ -16,6 +22,7 @@ const typewrite = function(el) {
 
 typewrite(escrever);
 
+////////////////////////////////////////////////////////
 // EFEITO DE ROLAGEM
 
 const getDistanceFromTheTop = function(el) {
@@ -23,16 +30,9 @@ const getDistanceFromTheTop = function(el) {
     return document.querySelector(id).offsetTop;
 }
 
-// const nativeScroll = function(distanceFromTheTop) {
-//     window.scroll({
-//         top: distanceFromTheTop,
-//         behavior: "smooth",
-//     });
-// }
-
 const scrollToSection = function(ev) {
     ev.preventDefault();
-    const distanceFromTheTop = getDistanceFromTheTop(ev.target) + 10;
+    const distanceFromTheTop = getDistanceFromTheTop(ev.target) -20;
     smoothScrollTo(0, distanceFromTheTop, 1000);
 }
 
@@ -66,3 +66,40 @@ const smoothScrollTo = function(endX, endY, duration) {
     }, 1000 / 60 ); 
 
 }
+
+// const nativeScroll = function(distanceFromTheTop) {
+//     window.scroll({
+//         top: distanceFromTheTop,
+//         behavior: "smooth",
+//     });
+// }
+
+
+////////////////////////////////////////////////////////
+// EFEITO DE DESLIZAR (EXPERIÊNCIAS)
+
+const showExp = () => {
+    const actualStyle = celcoin.style.display;
+    const otherStyle = nexp.style.display;
+    if(actualStyle == "block") {
+        celcoin.style.display = "none"
+        nexp.style.display = "block"
+    } else {
+        celcoin.style.display = "block"
+        nexp.style.display = "none"
+    }
+};
+
+/*const showNexp = () => {
+    const actualStyle = nexp.style.display
+    if(actualStyle == "block") {
+        nexp.style.display = "none"
+    } else {
+        nexp.style.display = "block"
+    }
+};*/ 
+
+botaoCelcoin.addEventListener("click", showExp);
+botaoNexp.addEventListener("click", showExp);
+
+ 

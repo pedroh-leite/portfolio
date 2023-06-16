@@ -252,6 +252,7 @@ div.apresentacao{
     border: 2px solid var(--azul-claro);
     text-decoration: none;
     color: var(--branco);
+    cursor: pointer;
 }
 
 .nexp{
@@ -265,6 +266,7 @@ div.apresentacao{
     border: 2px solid var(--azul-claro);
     text-decoration: none;
     color: var(--branco);  
+    cursor: pointer;
 }
 
 .dados-celcoin{
@@ -300,15 +302,17 @@ div.apresentacao{
 
 .nova-exp{
     display: none;
-    margin-left: 285px;
-    margin-top: -230px;
+    margin-left: 355px;
+    margin-top: -80px;
     margin-bottom: 90px;
     width: 800px;
     text-align: justify;
+    color: var(--azul-claro);
 }
 
 .novo-job{
-    margin-top: 50px;
+    margin-top: 25px;
+    color: var(--branco);
 }
 
 
@@ -474,5 +478,6 @@ div.apresentacao{
     font-size: 1.05rem;
     text-shadow: 1px 1px var(--violeta);
 }
-/*
-*/
+
+
+/* ANIMAÇÃO DESLIZAR */
