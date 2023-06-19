@@ -6,7 +6,10 @@ const botaoNexp = document.querySelector(".btn-nexp")
 const botaoCelcoin = document.querySelector(".btn-celcoin")
 const nexp = document.querySelector(".nova-exp");
 const celcoin = document.querySelector(".data-exp");
-
+const botaoProjetos = document.querySelector(".projetos-novos");
+const aparecer = document.querySelector(".hide");
+const maisProjetos = document.querySelector(".projetos-novos");
+const menosProjetos = document.querySelector(".diminuir-projetos");
 
 ////////////////////////////////////////////////////////
 // EFEITO MÁQUINA DE ESCREVER 
@@ -67,39 +70,53 @@ const smoothScrollTo = function(endX, endY, duration) {
 
 }
 
-// const nativeScroll = function(distanceFromTheTop) {
-//     window.scroll({
-//         top: distanceFromTheTop,
-//         behavior: "smooth",
-//     });
-// }
-
-
 ////////////////////////////////////////////////////////
 // EFEITO DE DESLIZAR (EXPERIÊNCIAS)
 
-const showExp = () => {
+const showExp = function() {
     const actualStyle = celcoin.style.display;
-    const otherStyle = nexp.style.display;
     if(actualStyle == "block") {
-        celcoin.style.display = "none"
-        nexp.style.display = "block"
-    } else {
-        celcoin.style.display = "block"
-        nexp.style.display = "none"
+        celcoin.style.display = "none";
+    } 
+    else { 
+        celcoin.style.display = "block";
+        nexp.style.display = "none";
     }
 };
 
-/*const showNexp = () => {
-    const actualStyle = nexp.style.display
-    if(actualStyle == "block") {
-        nexp.style.display = "none"
+const showNexp = function() {
+    const otherStyle = nexp.style.display;
+    if (otherStyle == "block"){
+        nexp.style.display = "none";
     } else {
-        nexp.style.display = "block"
+        nexp.style.display = "block";
+        celcoin.style.display = "none";
     }
-};*/ 
+};
 
 botaoCelcoin.addEventListener("click", showExp);
-botaoNexp.addEventListener("click", showExp);
+botaoNexp.addEventListener("click", showNexp);
 
- 
+////////////////////////////////////////////////////////
+// SURGIR OS NOVO PROJETOS (EXPERIÊNCIAS)
+
+const newProject = function() {
+    const hide = aparecer.style.display;
+    if(hide !== "block") {
+        aparecer.style.display = "block";
+        maisProjetos.style.display = "none";
+        menosProjetos.style.display = "block";        
+    } 
+};
+
+const minusProject = function() {
+    const hide = aparecer.style.display
+    if(hide == "block") {
+        aparecer.style.display = "none";
+        maisProjetos.style.display = "block";
+        menosProjetos.style.display = "none";
+    }
+};
+
+botaoProjetos.addEventListener("click", newProject);
+menosProjetos.addEventListener("click", minusProject);

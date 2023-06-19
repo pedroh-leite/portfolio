@@ -362,7 +362,7 @@ div.apresentacao{
 }
 
 .p4{
-    display: none;
+    display: block;
     width: 300px;
     height: 350px;
     margin-top: 30px;
@@ -373,7 +373,7 @@ div.apresentacao{
 }
 
 .p5{
-    display: none;
+    display: block;
     width: 300px;
     height: 350px;
     margin-top: -350px;
@@ -384,7 +384,7 @@ div.apresentacao{
 }
 
 .p6{
-    display: none;
+    display: block;
     width: 300px;
     height: 350px;
     margin-top: -355px;
@@ -392,6 +392,10 @@ div.apresentacao{
     background-color: var(--cinza-escuro);
     border: 3px solid var(--branco);
     border-radius: 30px;
+}
+
+.hide{
+    display: none;
 }
 
 
@@ -437,20 +441,34 @@ div.apresentacao{
     width: auto;
 }
 
-.mais-projetos{
-    display: block;
+.projetos-novos{
+    display: block;  
     margin: auto;
     text-align: center;
-    margin-top: 40px;
-    margin-bottom: 10px;
-}
-
-.projetos-novos{
+    margin-top: 15px;
+    margin-bottom: 40px;
     text-decoration: none;
     color:var(--branco);
+    cursor: pointer;
 }
 
 .projetos-novos:hover{
+    text-decoration: underline;
+    color:var(--branco);
+}
+
+.diminuir-projetos{
+    display: none;  
+    margin: auto;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    text-decoration: none;
+    color:var(--branco);
+    cursor: pointer;
+}
+
+.diminuir-projetos:hover{
     text-decoration: underline;
     color:var(--branco);
 }
