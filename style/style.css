@@ -126,6 +126,11 @@ div.apresentacao{
     font-size: 1.1rem;
 }
 
+.btn-linkedin:hover{
+    background-color: rgba(255, 255, 255, 0.078);
+    text-shadow: 2px 1px 2px var(--azul-claro);
+}
+
 .btn-github{
     display: inline-block;
     padding: 15px;
@@ -138,6 +143,11 @@ div.apresentacao{
     color: var(--branco);
     text-decoration: none;
     font-size: 1.1rem;
+}
+
+.btn-github:hover{
+    background-color: rgba(255, 255, 255, 0.078);
+    text-shadow: 2px 1px 2px var(--azul-claro);
 }
 
 .container img {
@@ -211,6 +221,10 @@ div.apresentacao{
     margin-left: 420px;
     margin-top: 20px;
     margin-bottom: 300px;
+}
+
+.email-pedro {
+    color: var(--azul-claro);
 }
 
 .baixar-cv{
