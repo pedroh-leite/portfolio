@@ -209,7 +209,7 @@ div.apresentacao{
     margin-left: 420px;
     margin-top: -310px;
     border-radius: 20px;
-    opacity: 85%;
+    /* opacity: 85%; */
 }
 
 .email {

@@ -26,6 +26,10 @@ Grandes telas - Acima de 1200px
 
 @media screen and (max-width: 768px) /*Celular*/{
 
+    header{
+        position: fixed;
+    }
+
     /* SESSÃO HOME */
 
     div.apresentacao{
@@ -118,7 +122,7 @@ Grandes telas - Acima de 1200px
         margin-left: 10%;
         margin-top: 12%;
         border-radius: 20px;
-        opacity: 85%;
+        /* opacity: 85%; */
     }
     
     .email {
@@ -284,7 +288,7 @@ Grandes telas - Acima de 1200px
     }
 
     .p4{
-        display: none;
+        display: block;
         width: 300px;
         height: 350px;
         margin-top: 50px;
@@ -295,7 +299,7 @@ Grandes telas - Acima de 1200px
     }
     
     .p5{
-        display: none;
+        display: block;
         width: 300px;
         height: 350px;
         margin-top: 50px;
@@ -306,7 +310,7 @@ Grandes telas - Acima de 1200px
     }
     
     .p6{
-        display: none;
+        display: block;
         width: 300px;
         height: 350px;
         margin-top: 50px;
@@ -315,6 +319,11 @@ Grandes telas - Acima de 1200px
         border: 3px solid var(--branco);
         border-radius: 30px;
     }
+
+    .hide{
+        display: none;
+    }
+    
 
     .img-brv1 {
         display: block;
@@ -378,6 +387,23 @@ Grandes telas - Acima de 1200px
         color:var(--branco);
     }
 
+    .diminuir-projetos{
+        display: none;  
+        margin: auto;
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 40px;
+        text-decoration: none;
+        color:var(--branco);
+        cursor: pointer;
+    }
+    
+    .diminuir-projetos:hover{
+        text-decoration: underline;
+        color:var(--branco);
+    }
+    
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) /* DESKTOP*/ {
@@ -417,7 +443,7 @@ Grandes telas - Acima de 1200px
         margin-left: 420px;
         margin-top: -310px;
         border-radius: 20px;
-        opacity: 85%;
+        /* opacity: 85%; */
     }
 
     /* SESSÃO EXPERIÊNCIAS */
