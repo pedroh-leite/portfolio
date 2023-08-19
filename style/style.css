@@ -41,14 +41,11 @@ body{
 
 header{
     position: fixed;
-    width: 100%;
-    font-size: 1rem;
+    background-color: var(--cinza-escuro);
     text-shadow: 1px 1px 1px var(--preto);
     border-bottom: 2px solid var(--azul-escuro);
-}
-
-.painel{
-    background-color: var(--cinza-escuro);
+    width: 100%;
+    font-size: 1rem;
     padding: 1.5rem;
 }
 
@@ -57,7 +54,7 @@ nav a{
     background-color: var(--cinza-escuro);
     color: var(--branco);
     text-decoration: none;
-    border-radius: 4px;
+    border-radius: 0.3rem;
 }
 
 nav a:hover{
@@ -115,9 +112,9 @@ div.apresentacao{
 
 .btn-linkedin{
     display: inline-block;
-    padding: 15px 25px;
-    margin-top: 1rem;
-    margin-left: 12rem;
+    padding: 1.1% 1.5%;
+    margin-top: 1%;
+    margin-left: 14%;
     border: 2px solid var(--azul-medio);
     border-radius: 5px;
     background-color: var(--preto);
@@ -133,10 +130,8 @@ div.apresentacao{
 
 .btn-github{
     display: inline-block;
-    padding: 15px;
-    padding-left: 25px;
-    padding-right: 25px;
-    margin-left: 1.5rem;
+    padding: 1.1% 1.9%;
+    margin-left: 1.3%;
     border: 2px solid var(--roxo);
     border-radius: 5px;
     background-color: var(--preto);
@@ -161,7 +156,7 @@ div.apresentacao{
 /* SESSÃO SOBRE */
 
 .section-sobre{
-    margin-top: 6rem;
+    margin-top: 5%;
 }
 
 
@@ -169,12 +164,12 @@ div.apresentacao{
     margin: auto;
     color: var(--branco);
     border-top: 3px solid var(--azul-medio);
-    padding-top: 8rem;
+    padding-top: 8%;
 }
 
 
 .sobre{
-    margin-left: 430px;
+    margin-left: 32%;
     font-size: 2.5rem;
     margin-bottom: -55px;
     text-shadow: 1px 2px 1px var(--azul-claro);
@@ -182,8 +177,8 @@ div.apresentacao{
 
 .pedro{
     display: inline-block;
-    margin-left: 80px;
-    margin-top: 10px;
+    margin-left: 6%;
+    margin-top: 1%;
     border-left: 7px solid var(--azul-claro);
     border-radius: 5px;
 }
@@ -201,13 +196,13 @@ div.apresentacao{
     background-color: var(--cinza-escuro);
     text-align: justify;
     width:  55% /*700px*/;
-    height: 150px;
-    padding-right: 70px;
-    padding-left: 40px;
-    padding-top: 40px;
+    height: 35%;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 2%;
     padding-bottom: 20px;
-    margin-left: 420px;
-    margin-top: -310px;
+    margin-left: 30%;
+    margin-top: -23%;
     border-radius: 20px;
     /* opacity: 85%; */
 }
@@ -217,10 +212,10 @@ div.apresentacao{
     background-color: var(--preto);
     border: 2px solid var(--violeta);
     border-radius: 10px;
-    padding: 10px;
-    margin-left: 420px;
-    margin-top: 20px;
-    margin-bottom: 300px;
+    padding: 0.8%;
+    margin-left: 33%;
+    margin-top: 1%;
+    margin-bottom: 25%;
 }
 
 .email-pedro {
@@ -229,14 +224,15 @@ div.apresentacao{
 
 .baixar-cv{
     display: inline-block;
-    padding: 10px;
-    margin-left: 10px;
+    padding: 0.8%;
+    margin-left: 1%;
     border: 2px solid var(--azul-escuro);
     border-radius: 8px;
     background-color: var(--preto);
     color: var(--branco);
     text-decoration: none;
 }
+
 
 /* SESSÃO EXPERIÊNCIA */
 
@@ -246,21 +242,21 @@ div.apresentacao{
 }
 
 .div-exp{
-    margin-top: -100px;
-    margin-bottom: 90px;
+    margin-top: -10%;
+    margin-bottom: 7%;
     border-top: 3px solid var(--azul-medio);
 }
 
 .exp{
-    margin-left: 150px;
-    margin-top: 200px;
+    margin-left: 10%;
+    margin-top: 15%;
     font-size: 2.5rem;
-    margin-bottom: -30px;
+    margin-bottom: -5%;
     text-shadow: 1px 2px 1px var(--azul-claro);
 }
 
 .btn-celcoin{
-    margin-left: 150px;
+    margin-left: 11.1%;
     padding: 10px;
     padding-right: 53px;
     border: 2px solid var(--azul-claro);
@@ -270,13 +266,13 @@ div.apresentacao{
 }
 
 .nexp{
-    margin-left: 150px;
-    margin-top:22px;
+    margin-left: 11.12%;
+    margin-top: 1.6%;
 }
 
 .btn-nexp{
-    margin-top: 800px;
-    padding: 10px;
+    margin-top: 10%;
+    padding: .85%;
     border: 2px solid var(--azul-claro);
     text-decoration: none;
     color: var(--branco);  
@@ -285,8 +281,8 @@ div.apresentacao{
 
 .dados-celcoin{
     display: block;
-    margin-left: 355px;
-    margin-top: -80px;
+    margin-left: 27%;
+    margin-top: -5%;
     margin-bottom: 90px;
     width: 800px;
     text-align: justify;
